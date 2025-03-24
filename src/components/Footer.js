@@ -91,6 +91,16 @@ const Copyright = styled.div`
   font-size: 0.9rem;
 `;
 
+const CopyrightLink = styled(Link)`
+  color: #ccc;
+  text-decoration: none;
+  transition: var(--transition);
+  
+  &:hover {
+    color: var(--secondary-color);
+  }
+`;
+
 const Footer = () => {
   return (
     <FooterContainer>
@@ -103,6 +113,7 @@ const Footer = () => {
             Actuellement en mise en sommeil, nous préservons notre patrimoine.
           </FooterText>
           <FooterTitle><a href="https://devenir-aviateur.fr">Devenir Aviateur <i className="fas fa-external-link-alt"></i></a></FooterTitle>
+          <FooterTitle><Link to="/mentions-legales">Mentions légales</Link></FooterTitle>
         </FooterSection>
         
         <FooterSection>
@@ -119,18 +130,15 @@ const Footer = () => {
           </FooterLinks>
         </FooterSection>
 
-        
-        
         <FooterSection>
           <FooterTitle>Contact</FooterTitle>
           <FooterText>
-            Base Aérienne XXX<br />
-            XXXXX Ville, France<br />
+            Base Aérienne <br />
+            ORANGE, France<br />
             <br />
             Email: escadron.idf@gmail.com<br />
             Adresse : Cellule Traditions Base aérienne 115<br />
             Code postal : 84871 ORANGE CEDEX<br />
-            Téléphone: +33 X XX XX XX XX
           </FooterText>
           <SocialLinks>
             <SocialIcon href="https://www.facebook.com/ec25iledefrance/" aria-label="Facebook">
@@ -141,11 +149,11 @@ const Footer = () => {
       </FooterContent>
       
       <Copyright>
-        <p>&copy; {new Date().getFullYear()} Escadron de Chasse - Armée de l'Air. <br /> Tous droits réservés.
-          Designed by QUENTIN OTT</p>
+        <p>&copy; {new Date().getFullYear()} Escadron de Chasse - Armée de l'Air. <br /> 
+          Tous droits réservés. Designed by QUENTIN OTT</p>
       </Copyright>
     </FooterContainer>
   );
 };
 
-export default Footer; 
+export default Footer;

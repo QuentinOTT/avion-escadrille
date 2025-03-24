@@ -17,6 +17,7 @@ import Musee from './pages/Musee';
 import Pilotes from './pages/Pilotes';
 import Escadrilles from './pages/Escadrilles';
 import Spa84 from './pages/Spa84';
+import MentionsLegales from './pages/MentionsLegales';
 
 const AppContainer = styled.div`
   min-height: 100vh;
@@ -44,6 +45,7 @@ function App() {
             <Route path="/pilotes" element={<Pilotes />} />
             <Route path="/escadrilles" element={<Escadrilles />} />
             <Route path="/escadrilles/spa84" element={<Spa84 />} />
+            <Route path="/mentions-legales" element={<MentionsLegales />} />
           </Routes>
         </MainContent>
         <Footer />
