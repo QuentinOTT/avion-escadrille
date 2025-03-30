@@ -89,14 +89,13 @@ const MentionsLegales = () => {
 
         <Section>
           <SectionTitle>3. Propriété intellectuelle</SectionTitle>
-          <Text>Le contenu du site, incluant les textes, images, vidéos et autres éléments, est la propriété exclusive de Quentin OTT.</Text>
+          <Text>Le contenu du site, incluant les textes, images, vidéos et autres éléments, est la propriété exclusive de l'Armée de l'Air.</Text>
           <Text>Toute reproduction totale ou partielle est interdite sans autorisation écrite préalable.</Text>
         </Section>
 
         <Section>
           <SectionTitle>4. Protection des données personnelles</SectionTitle>
-          <Text>Conformément à la réglementation en vigueur, ce site ne collecte aucune donnée personnelle.</Text>
-          <Text>Les informations personnelles ne sont collectées que si vous les partagez volontairement via le formulaire de contact.</Text>
+          <Text>Le site ne collecte aucune donnée personnelle.</Text>
         </Section>
 
         <Section>
@@ -106,7 +105,7 @@ const MentionsLegales = () => {
 
         <Section>
           <SectionTitle>6. Responsabilité</SectionTitle>
-          <Text>Quentin OTT ne peut être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur lors de l'accès au site.</Text>
+          <Text>L'Armée de l'Air ne peut être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur lors de l'accès au site.</Text>
           <Text>Le site est mis à jour régulièrement pour assurer une information à jour.</Text>
         </Section>
 
