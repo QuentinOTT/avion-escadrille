@@ -163,21 +163,7 @@ const Histoire = () => {
             marginBottom: '2rem'
           }}
         />
-        <h1 style={{ 
-          textAlign: 'center',
-          fontSize: '2.5rem',
-          marginBottom: '1rem'
-        }}>
-          Notre Histoire
-        </h1>
-        <p style={{ 
-          textAlign: 'center',
-          fontSize: '1.2rem',
-          maxWidth: '800px',
-          margin: '0 auto 2rem'
-        }}>
-          Plus de 80 ans d'excellence et de dévouement au service de la France
-        </p>
+
       </div>
 
       <Section 
@@ -196,7 +182,7 @@ const Histoire = () => {
           à de nombreux événements historiques majeurs. Cette chronologie retrace les moments 
           clés qui ont façonné notre identité et notre héritage.
         </p>
-
+        
         <TimelineContainer>
           {timelineEvents.map((event, index) => (
             <TimelineItem 
@@ -216,6 +202,180 @@ const Histoire = () => {
             </TimelineItem>
           ))}
         </TimelineContainer>
+
+        <div style={{ 
+          maxWidth: '800px', 
+          margin: '3rem auto',
+          padding: '2rem',
+          backgroundColor: 'white',
+          borderRadius: '8px',
+          boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
+        }}>
+          <h3 style={{ 
+            color: 'var(--primary-color)', 
+            marginBottom: '1.5rem',
+            textAlign: 'center'
+          }}>
+            Cahiers de Marche
+          </h3>
+          <p style={{ 
+            textAlign: 'center', 
+            marginBottom: '2rem',
+            lineHeight: '1.6'
+          }}>
+            Découvrez l'histoire détaillée de notre escadrille à travers nos cahiers de marche historiques.
+          </p>
+          <div style={{ 
+            display: 'flex', 
+            flexWrap: 'wrap', 
+            justifyContent: 'center', 
+            gap: '1rem',
+            marginBottom: '2rem' 
+          }}>
+            <a 
+              href="/downloads/TOME-1.pdf" 
+              download
+              style={{
+                display: 'inline-block',
+                padding: '0.75rem 1.5rem',
+                backgroundColor: 'var(--primary-color)',
+                color: 'white',
+                borderRadius: '4px',
+                textDecoration: 'none',
+                fontWeight: '600',
+                transition: 'all 0.3s ease',
+                margin: '0.5rem'
+              }}
+            >
+              PÉRIODE 1941-1945
+            </a>
+            <a 
+              href="/downloads/TOME-2.pdf" 
+              download
+              style={{
+                display: 'inline-block',
+                padding: '0.75rem 1.5rem',
+                backgroundColor: 'var(--primary-color)',
+                color: 'white',
+                borderRadius: '4px',
+                textDecoration: 'none',
+                fontWeight: '600',
+                transition: 'all 0.3s ease',
+                margin: '0.5rem'
+              }}
+            >
+              PÉRIODE 1945-1951
+            </a>
+            <a 
+              href="/downloads/TOME-3.pdf" 
+              download
+              style={{
+                display: 'inline-block',
+                padding: '0.75rem 1.5rem',
+                backgroundColor: 'var(--primary-color)',
+                color: 'white',
+                borderRadius: '4px',
+                textDecoration: 'none',
+                fontWeight: '600',
+                transition: 'all 0.3s ease',
+                margin: '0.5rem'
+              }}
+            >
+              PÉRIODE 1951-1954
+            </a>
+            <a 
+              href="/downloads/TOME-4.pdf" 
+              download
+              style={{
+                display: 'inline-block',
+                padding: '0.75rem 1.5rem',
+                backgroundColor: 'var(--primary-color)',
+                color: 'white',
+                borderRadius: '4px',
+                textDecoration: 'none',
+                fontWeight: '600',
+                transition: 'all 0.3s ease',
+                margin: '0.5rem'
+              }}
+            >
+              PÉRIODE 1954-1956
+            </a>
+          </div>
+          
+          <h3 style={{ 
+            color: 'var(--primary-color)', 
+            marginBottom: '1.5rem',
+            marginTop: '3rem',
+            textAlign: 'center'
+          }}>
+            Titres d'Homologations Escadrilles
+          </h3>
+          <p style={{ 
+            textAlign: 'center', 
+            marginBottom: '2rem',
+            lineHeight: '1.6'
+          }}>
+            Consultez les documents officiels d'homologation de notre escadrille.
+          </p>
+          <div style={{ 
+            display: 'flex', 
+            flexWrap: 'wrap', 
+            justifyContent: 'center', 
+            gap: '1rem' 
+          }}>
+            <a 
+              href="/downloads/A592-SPA84.pdf" 
+              download
+              style={{
+                display: 'inline-block',
+                padding: '0.75rem 1.5rem',
+                backgroundColor: 'var(--secondary-color)',
+                color: 'white',
+                borderRadius: '4px',
+                textDecoration: 'none',
+                fontWeight: '600',
+                transition: 'all 0.3s ease',
+                margin: '0.5rem'
+              }}
+            >
+              Homologation 1
+            </a>
+            <a 
+              href="/downloads/A619-C46.pdf" 
+              download
+              style={{
+                display: 'inline-block',
+                padding: '0.75rem 1.5rem',
+                backgroundColor: 'var(--secondary-color)',
+                color: 'white',
+                borderRadius: '4px',
+                textDecoration: 'none',
+                fontWeight: '600',
+                transition: 'all 0.3s ease',
+                margin: '0.5rem'
+              }}
+            >
+              Homologation 2
+            </a>
+            <a 
+              href="/downloads/A1098-SPA124.pdf" 
+              download
+              style={{
+                display: 'inline-block',
+                padding: '0.75rem 1.5rem',
+                backgroundColor: 'var(--secondary-color)',
+                color: 'white',
+                borderRadius: '4px',
+                textDecoration: 'none',
+                fontWeight: '600',
+                transition: 'all 0.3s ease',
+                margin: '0.5rem'
+              }}
+            >
+              Homologation 3
+            </a>
+          </div>
+        </div>
       </Section>
 
       {/* <Section 
