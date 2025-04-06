@@ -1,0 +1,5 @@
+# Active l'authentification
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile /Users/quentinott/Documents/site main/site-avion/htpasswd
+Require valid-user
