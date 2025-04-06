@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import HomeHero from '../components/HomeHero';
 import Section from '../components/Section';
 import Card from '../components/Card';
+import WelcomePopup from '../components/WelcomePopup';
 
 const HeroButton = styled(motion.button)`
   background-color: var(--secondary-color);
@@ -138,6 +139,7 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <>
+      <WelcomePopup />
       <HomeHero 
         title="Escadron de Chasse" 
         subtitle="Un héritage d'excellence et de courage au service de la France"
